@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 4</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header class="header container">
+        <div class="header__title">
+            <h1>Mr Bean</h1>
+        </div>
+        <div class="header__nav">
+            <ul class="header__nav__list">
+                <li class="header__nav__list__item"><a href="#sinopse">O filme</a></li>
+                <li class="header__nav__list__item"><a href="#personagem">O personagen</a></li>
+                <li class="header__nav__list__item"><a href="#epsodios">Epsódios da Série </a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main container">
+        <section class="sinopse" id="sinopse">
+            <img class="sinopse__img"
+                src="dist/images/Mr Bean.webp" alt="">
+            <div>
+                <h2 class="sinopse__title">Sinopse</h2>
+                <p class="sinopse__text">Quando o clima úmido de Londres fica insuportável, Mr. Bean decide ir para a Riviera Francesa e divertir-se ao sol. Como sempre, seus planos não acontecem do jeito que queria. Ele é confundido duas vezes: com um sequestrador e com um renomado cineasta quando chega com o filho de um diretor e uma atriz principiante. Mr. Bean acaba no Festival de Cinema de Cannes.</p>
+                
+            </div>
+        </section>
+
+        <section class="personagem" id="personagem"> 
+            <h2 class="personagem__title">O Personagem</h2>
+            <ul class="personagem__list">
+                <li class="personagem__list__item">             
+                    <img class="personagem__list__item__img" src="./dist/images/Mr Bean2.jpeg" alt="">
+                    <p class="personagem__list__item__ator">A personalidade de Bean é agradável, divertida, ingênua, e algumas vezes, malvada. Ele cria diversos esquemas e artifícios incomuns para as tarefas diárias. Ele raramente fala, e quando diz algo, geralmente são apenas algumas palavras resmungadas. Ele também não gosta de pessoas pegando suas coisas. Bean muitas vezes parece não ter conhecimento dos aspectos básicos da maneira como o mundo funciona, e o programa normalmente apresenta suas tentativas de atividades que normalmente seriam consideradas simples, como nadar, usar um aparelho de televisão, redecorar ou ir à igreja.
+                        O humor em grande parte vem de suas soluções originais (e muitas vezes absurdas) para problemas - geralmente autoinfligidos - e seu total desrespeito pelos outros ao resolvê-los, sua mesquinhez e ocasional malevolência.                       
+                        Outra característica marcante de Mr.Bean são suas expressões faciais, que sempre são muito exageradas, contribuindo para o humor ligado ao personagem.</p>
+                </li>
+                
+            </ul>
+        </section>
+        <section class="epsodios" id="epsodios">
+            <h2 class="epsodios__title">Epsódios marcantes da série:</h2>
+            <div class="epsodios__button">
+                <button data-tab-button="MrBean_EmSala" class="epsodios__list__item__button">Mr Bean Epsódio 01</button>
+                <button data-tab-button="MrBean_Mudanca" class="epsodios__list__item__button">Mr Bean Epsódio 02</button>
+                <button data-tab-button="MrBean_Urso" class="epsodios__list__item__button">Mr Bean Epsódio 03</button>
+            </div>
+            <ul class="epsodios__list">
+                <li class="epsodios__list__item">
+                    <div data-tab-id="MrBean_EmSala" class="epsodios__list__item__conteudo epsodios--is-active">
+                        <img class="epsodios__img" src="./src/images/Mr Bean-Sala-aula.webp " alt="Sala de aula">
+                        <p class="epsodios__sinopse">
+                            Mr Bean vai para a sala de exame para fazer sua prova. Ao estudar a matéria errada, ele está tentando trapacear.
+                        </p>
+                    </div>
+                </li>
+                <li class="epsodios__listt__item">
+                    <div data-tab-id="MrBean_Mudanca" class="epsodios__list__item__conteudo">
+                        <img class="epsodios__img" src="./src/images/Mr Bean-Mini.jpeg" alt="Mudanca">
+                        <p class="epsodios__sinopse">
+                            Se é fã de Mr.Bean (mesmo que não seja deve saber do quem estamos a falar), deve lembrar-se de uma das cenas mais cómicas da personagem. Falamos de quando decidiu conduzir o mítico Mini verde alface através de uma poltrona presa no tejadilho do mesmo. 
+                        </p>
+                    </div>
+                </li>
+                <li class="epsodios__list__item">
+                    <div data-tab-id="MrBean_Urso" class="epsodios__list__item__conteudo">
+                        <img class="epsodios__img" src="./src/images/Mr Bean-urso.jpeg" alt="urso">
+                        <p class="epsodios__sinopse">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga quasi quae, enim temporibus nam cupiditate accusamus ipsa non obcaecati iusto aliquid ad repudiandae fugiat, suscipit voluptatum optio? Repellat, ratione!
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="./dist/js/main.js"></script>
+</body>
+
+</html>
+    </main>
+</body>

@@ -1,0 +1,54 @@
+@use 'variaveis';
+
+.epsodios {
+    margin-bottom: 22px;
+
+    &__title {
+        color: variaveis.$corTextoSecundario;
+        margin-bottom: 12px;
+    }
+
+    &__button {
+        display: flex;
+    }
+
+    &__list{
+
+        &__item{
+            &__button {
+                border: none;
+                margin-bottom: 16px;
+                background-color: variaveis.$corDeFundo;
+                color: variaveis.$corTextoSecundario;
+                font-size: 1.2em;
+                padding: 8px;
+                font-weight: bold;
+                border-radius: 4px;
+                cursor: pointer;
+                margin-right: 8px;
+            }
+
+            &__conteudo {
+                display: none;
+            }
+        }
+    }
+
+    &--is-active {
+        display: flex;
+    }
+
+    &__img {
+        max-width: 240px;
+        width: 100%;
+        margin-right: 32px;
+    }
+
+    &__sinopse {
+        font-size: 22px;
+        margin-right: 80px;
+        color: variaveis.$corTextoSecundario;
+    }
+
+    
+}

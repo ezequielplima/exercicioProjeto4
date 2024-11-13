@@ -1,0 +1,27 @@
+@use 'variaveis';
+
+.sinopse {
+    display: flex;
+    margin-bottom: 40px;
+    
+    &__img {
+        max-width: 50vw;
+        margin-right: 44px;
+        margin-left: 16px;
+        border-radius: 8px;
+        width: 64%;     
+    }
+
+    &__text {
+        max-width: 50vw;
+        color: variaveis.$corTextoSecundario;
+        text-align: justify;
+    }
+
+    &__title {
+        margin-bottom: 12px;
+        color: variaveis.$corTextoPrincipal;
+    }
+}; 
+
+

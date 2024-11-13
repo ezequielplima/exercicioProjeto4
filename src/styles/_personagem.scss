@@ -1,0 +1,42 @@
+@use 'variaveis';
+
+.personagem {
+    margin-bottom: 56px;
+    margin-left: 21px;
+
+    &__title{
+        margin-bottom: 12px;
+        color: variaveis.$corTextoPrincipal;
+    }         
+
+    &__list{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 12px;  
+
+        &__item {
+            color: variaveis.$corTextoSecundario;
+            display: flex;
+            &__nome {
+                margin-bottom: 8px;
+                font-size: 20px;
+        
+            }
+            &__img {
+                max-width: 30vw;
+                width: 80%;
+                border-radius: 8px;
+            }
+            &__ator {
+                margin-bottom: 8px;              
+                color: variaveis.$corTextoSecundario;
+                margin-right: 44px;
+                margin-left: 22px;
+                border-radius: 8px;
+                width: 64%;
+                text-align: justify;                
+            }
+
+            
+            }
+        }
+    }

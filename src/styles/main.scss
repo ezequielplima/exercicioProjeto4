@@ -1,0 +1,24 @@
+@use 'variaveis';
+@use 'header';
+@use 'sinopse';
+@use 'personagem';
+@use 'epsodios';
+
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: variaveis.$corDeFundo;
+    
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+

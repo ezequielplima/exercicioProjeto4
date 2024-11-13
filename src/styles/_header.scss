@@ -1,0 +1,42 @@
+@use 'variaveis';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: variaveis.$corDeFundo;
+    padding: 16px;
+    
+    &__title {
+        border-bottom: 2px solid rgb(220, 16, 16);
+        color: variaveis.$corTextoPrincipal;
+        margin-top: 46px;
+    }
+
+    &__nav {
+        &__list {
+            display: flex;
+            justify-content: left;
+            top: 0;
+            right: 0;
+
+            &__item {
+                list-style: none;
+                margin: 8px;
+                margin-right: 16px;
+                padding: 8px;
+                border-radius: 4px;
+                border-bottom: 2px solid white;   
+                
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: variaveis.$corDeFundo;
+                    font-weight: bold;
+                    color: variaveis.$corTextoSecundario;
+                }
+            }
+        }
+    }
+}
+
